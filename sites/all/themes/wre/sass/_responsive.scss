@@ -1,0 +1,425 @@
+@media screen and (max-width:1200px)
+{
+	#contact 
+	{
+		img 
+		{
+			width:270px!important;
+			height:auto!important;
+			padding-right:10px;
+			margin-right:10px;
+		}
+
+		.phone,
+		.email,
+		.mailing-list
+		{
+			padding-left:291px;
+
+			a 
+			{
+				padding-left:55px;
+				background-position:10px center;
+			}
+		}
+
+		form 
+		{
+			padding-left:291px;
+			width:calc(100% - 291px);
+
+			input[type=email]
+			{
+				width:250px;
+				width:calc(100% - 130px);
+			}
+		}
+	}
+
+	.broker-of-record
+	{
+		float:none;
+		width:auto;
+
+		a.full-bio
+		{
+			width:240px;
+		}
+	}
+}
+
+
+@media screen and (max-width:1100px)
+{
+	#content 
+	{
+		padding:0 20px;
+	}
+
+	.view-listings 
+	{
+		.views-field 
+		{
+			padding:20px 5px;
+		}
+	}
+}
+
+
+@media screen and (max-width:980px)
+{
+	.view-listings
+	{
+		.views-field-nothing-2
+		{
+			.label
+			{
+				position:static;
+			}
+			.content 
+			{
+				padding-left:0;
+			}
+		}
+	}
+
+	#contact
+	{
+		img 
+		{
+			display:none;
+		}
+
+		.phone,
+		.email,
+		.mailing-list
+		{
+			padding-left:0;
+		}
+
+		form 
+		{
+			padding-left:0;
+			width:auto;
+			float:none;
+		}
+	}
+
+	#widgets .block
+	{
+		& > div 
+		{
+			padding:0 10px;
+		}
+
+		h2 
+		{
+			font-size:2em;
+		}
+	}
+}
+
+
+@media screen and (max-width:860px)
+{
+	.view-listings
+	{
+		.view-content
+		{
+			display:block;
+		}
+
+		.views-row
+		{
+			display:block;
+			padding:50px 0;
+			overflow:hidden;
+
+			&.views-row-first
+			{
+				padding-top:25px;
+			}
+			&.views-row-last 
+			{
+				padding-bottom:0;
+			}
+		}
+
+		.views-field 
+		{
+			display:block;
+			padding:0;
+		}
+
+		.views-field-nothing-1,
+		.views-field-nothing-2 
+		{
+			&:after
+			{
+				display:none;
+			}
+		}
+
+		.views-field-nothing 
+		{
+			float:left;
+			margin-right:20px;
+		}
+		.views-field-nothing-1 
+		{
+			line-height:130px;
+		}
+		.views-field-nothing-2
+		{
+			clear:left;
+		}
+		.views-field-nothing-3 
+		{
+			margin-top:20px;
+
+			.link,
+			.pdf
+			{
+				width:45%;
+				float:left;
+				padding:0 2.5%;
+				margin-bottom:0;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width:768px)
+{
+	.view-listings
+	{
+		.views-field-nothing
+		{
+			float:none;
+			text-align:center;
+		}
+		.views-field-nothing-1
+		{
+			line-height:normal;
+			padding-left:0;
+			text-align:center;
+		}
+	}
+
+	#widgets .block 
+	{
+		width:auto;
+		float:none;
+		padding-bottom:0;
+
+		.content 
+		{
+			a.read-more 
+			{
+				position:static;
+				margin:0 auto;
+			}
+		}
+
+		&#block-block-4 
+		{
+			margin-bottom:0;
+		}
+	}
+
+	#contact
+	{
+		.phone,
+		.email,
+		.mailing-list
+		{
+			font-size:1.25em;
+			line-height:normal;
+
+			a 
+			{
+				padding-top:10px;
+				padding-bottom:10px;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width:640px)
+{
+	#sidebar
+	{
+		width:100%;
+		height:auto;
+		max-height:233px;
+		overflow:hidden;
+		position:absolute;
+		z-index:100;
+		border-bottom:1px solid $orange;
+
+		#menu-btn 
+		{
+			display:block;
+			text-align:center;
+			font-size:1.25em;
+			color:$dark-grey;
+			text-decoration:none;
+			line-height:60px;
+		}
+
+		#sidebar_bottom 
+		{
+			position:static;
+
+			& > div > div 
+			{
+				border-top:0;
+			}
+
+			#mailing_list 
+			{
+				width:200px;
+				margin:20px auto 0 auto;
+			}
+		}
+	}
+
+	#logo 
+	{
+		text-align:center;
+		margin-bottom:0;
+		border-bottom:0;
+		padding-bottom:0;
+
+		img 
+		{
+			display:block;
+			padding:0 10px 8px 20px;
+			width:250px;
+			height:auto;
+			margin:0 auto;
+			border-bottom:1px solid $dark-grey;
+		}
+	}
+
+	#block-system-main-menu 
+	{
+		width:180px;
+		margin:0 auto;
+		border-bottom:1px solid $dark-grey;
+
+		.content ul li 
+		{
+			margin-bottom:5px;
+		}
+	}
+
+	#page-wrapper 
+	{
+		padding-left:0;
+		padding-top:234px;
+	}
+
+	#header 
+	{
+		height:350px;
+		z-index:1;
+
+		.block
+		{
+			width:auto;
+			margin-left:20px;
+			margin-right:20px;
+			font-size:1.2em;
+			padding:20px;
+		}
+	}
+
+	#main-wrapper 
+	{
+		z-index:0;
+		min-height:0;
+	}
+
+	#content 
+	{
+		padding:0;
+	}
+
+	h1,
+	#page-title
+	{
+		font-size:2.333em;
+	}
+	h2 
+	{
+		font-size:2em;
+	}
+	h3 
+	{
+		font-size:1.666em;
+	}
+	h4
+	{
+		font-size:1.333em;
+	}
+	h5 
+	{
+		font-size:1em;
+	}
+	#page-title img 
+	{
+		margin-left:10px;
+		max-width:75px;
+		height:auto;
+	}
+
+	#contact 
+	{
+		padding-bottom:0;
+	}
+
+	.view-client-logos
+	{
+		text-align:center;
+
+		.views-row
+		{
+			display:inline-block;
+			float:none;
+
+			.views-field-field-logo
+			{
+				width:135px;
+				height:120px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width:540px)
+{
+	#header .block 
+	{
+		font-size:1.1em;
+	}
+
+	#block-system-main ul.half-width li
+	{
+		width:auto;
+		margin-right:0;
+		float:none;
+	}
+
+	#contact
+	{
+		.phone,
+		.email,
+		.mailing-list
+		{
+			font-size:1em;
+		}
+	}
+}

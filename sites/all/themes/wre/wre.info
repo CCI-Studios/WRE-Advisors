@@ -1,0 +1,21 @@
+name = WRE Advisors
+description = WRE Advisors Custom
+core = 7.x
+
+scripts[] = js/placeholders.jquery.min.js
+scripts[] = js/animate.js
+scripts[] = js/scroll.js
+scripts[] = js/title-icons.js
+scripts[] = js/listings.js
+scripts[] = js/menu-btn.js
+scripts[] = js/mailing-list.js
+
+stylesheets[all][] = stylesheets/screen.css
+
+regions[sidebar] = Sidebar
+regions[header] = Header
+regions[help] = Help
+regions[content] = Content
+regions[widgets] = Widgets
+regions[footer] = Footer
+
