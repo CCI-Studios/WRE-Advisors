@@ -389,7 +389,7 @@ hr
 {
 	position:relative;
 	z-index:-1;
-	min-height:550px;
+	min-height:600px;
 	background:$lighter-grey;
 	padding:20px 20px 50px 20px;
 
@@ -422,6 +422,7 @@ hr
 	position:relative;
 	z-index:1;
 	padding:0 75px;
+	overflow:hidden;
 }
 #block-system-main 
 {
@@ -584,12 +585,12 @@ hr
 
 	#block-block-2
 	{
-		& > div > div > h2
+		& > div > div h2
 		{
 			background-image:url(../images/block-our-model.jpg);
 		}
 
-		&:hover > div > div > h2,
+		&:hover > div > div h2, 
 		&:after
 		{
 			background-image:url(../images/block-our-model-hover.jpg);
@@ -602,12 +603,12 @@ hr
 	}
 	#block-block-3
 	{
-		& > div > div > h2
+		& > div > div h2
 		{
 			background-image:url(../images/block-broker-of-record.jpg);
 		}
 
-		&:hover > div > div > h2,
+		&:hover > div > div h2,
 		&:after
 		{
 			background-image:url(../images/block-broker-of-record-hover.jpg);
@@ -615,12 +616,12 @@ hr
 	}
 	#block-block-4
 	{
-		& > div > div > h2
+		& > div > div h2
 		{
 			background-image:url(../images/block-testimonials.jpg);
 		}
 
-		&:hover > div > div > h2,
+		&:hover > div > div h2,
 		&:after
 		{
 			background-image:url(../images/block-testimonials-hover.jpg);
@@ -631,7 +632,7 @@ hr
 			left:83.333%;
 		}
 	}
-	& > div > div > h2:after
+	& > div > div h2:after
 	{
 		content:"";
 		display:block;
@@ -691,7 +692,7 @@ hr
 			float:left;
 			background:no-repeat left center;
 
-			a
+			a, span
 			{
 				display:block;
 				padding-left:20px;
@@ -759,6 +760,11 @@ hr
 		{
 			background-color:$orange;
 			text-decoration:none;
+			padding:0 30px 0 0;
+			background-image:url(../images/arrow-right.png);
+			background-repeat:no-repeat;
+			background-position:160px center;
+			width:210px;
 		}
 	}
 }
@@ -946,25 +952,31 @@ hr
 	{
 		font-size:1.5em;
 		line-height:150%;
+		text-align:left;
 
-		a 
+		a, span
 		{
 			color:$dark-grey;
 			display:inline-block;
 			padding-left:80px;
 			background:no-repeat 15px center;
-
-			&:hover
-			{
-				text-decoration:none;
-				border-bottom:1px solid $orange;
-				margin-bottom:-1px;
-			}
+			text-align:left;
+		}
+		a:hover
+		{
+			text-decoration:none;
+			border-bottom:1px solid $orange;
+			margin-bottom:-1px;
 		}
 	}
-	.phone a
+	.phone span
 	{
 		background-image:url(../images/phone-large.png);
+
+		a 
+		{
+			padding-left:0;
+		}
 	}
 	.email a
 	{
@@ -1006,21 +1018,27 @@ hr
 
 		button 
 		{
-			color:white;
-			background:$dark-grey;
-			line-height:2.75em;
-			width:160px;
 			border:0;
 			font-size:0.75em;
-			outline:none;
 			margin-top:8px;
 			margin-right:4px;
 			outline-color:$orange;
+			width:150px;
+			line-height:45px;
+			color:white;
+			text-align:center;
+			background-color:$dark-grey;
+			box-sizing:content-box;
 
 			&:hover
 			{
+				background-color:$orange;
+				padding:0 30px 0 0;
+				width:120px;
+				background-image:url(../images/arrow-right.png);
+				background-repeat:no-repeat;
+				background-position:110px center;
 				cursor:pointer;
-				background:$orange;
 			}
 		}
 	}

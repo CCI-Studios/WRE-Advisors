@@ -126,7 +126,7 @@
       </a>
 
       <div id="footer_contact">
-        <div class="phone"><a href="tel:4165193282">416 519 3282</a></div>
+        <div class="phone"><span>416 519 3282</span></div>
         <div class="email"><a href="mailto:admin@wreadvisors.ca">admin@wreadvisors.ca</a></div>
       </div>
 

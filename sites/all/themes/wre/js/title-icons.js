@@ -3,7 +3,7 @@
 		var $body = $("body");
 		var icon = false;
 
-		if ($body.hasClass("our-model"))
+		if ($body.hasClass("our-model") || $body.hasClass("about"))
 		{
 			icon = "1";
 		}

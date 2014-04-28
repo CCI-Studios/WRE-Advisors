@@ -9,6 +9,7 @@ scripts[] = js/title-icons.js
 scripts[] = js/listings.js
 scripts[] = js/menu-btn.js
 scripts[] = js/mailing-list.js
+scripts[] = js/home-modules.js
 
 stylesheets[all][] = stylesheets/screen.css
 
