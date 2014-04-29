@@ -189,7 +189,7 @@
 	}
 }
 
-@media screen and (min-device-width:768px) and (max-device-width:1024px)
+@media screen and (min-device-width:768px) and (max-device-width:1024px), screen and (max-width:768px)
 {
 	#widgets .block .content a.read-more
 	{
@@ -221,6 +221,31 @@
 		background-repeat:no-repeat;
 		background-position:160px center;
 		width:210px;
+	}
+
+	#widgets
+	{
+		#block-block-2
+		{
+			& > div > div h2
+			{
+				background-image:url(../images/block-our-model-hover.jpg);
+			}
+		}
+		#block-block-3
+		{
+			& > div > div h2
+			{
+				background-image:url(../images/block-broker-of-record-hover.jpg);
+			}
+		}
+		#block-block-4
+		{
+			& > div > div h2
+			{
+				background-image:url(../images/block-testimonials-hover.jpg);
+			}
+		}
 	}
 }
 @media screen and (max-width:768px)
@@ -274,31 +299,6 @@
 			{
 				padding-top:10px;
 				padding-bottom:10px;
-			}
-		}
-	}
-
-	#widgets
-	{
-		#block-block-2
-		{
-			& > div > div h2
-			{
-				background-image:url(../images/block-our-model-hover.jpg);
-			}
-		}
-		#block-block-3
-		{
-			& > div > div h2
-			{
-				background-image:url(../images/block-broker-of-record-hover.jpg);
-			}
-		}
-		#block-block-4
-		{
-			& > div > div h2
-			{
-				background-image:url(../images/block-testimonials-hover.jpg);
 			}
 		}
 	}
@@ -513,16 +513,19 @@
 		max-height:none!important;
 	}
 
-	#page-wrapper
+	.front
 	{
-		height:auto;
-	}
-
-	#header
-	{
-		position:fixed;
-		top:0;
-		right:0;
+		#page-wrapper
+		{
+			height:auto;
+		}
+	
+		#header
+		{
+			position:fixed;
+			top:0;
+			right:0;
+		}
 	}
 
 	#main-wrapper,
