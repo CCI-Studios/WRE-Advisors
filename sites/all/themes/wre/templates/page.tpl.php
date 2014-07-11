@@ -130,7 +130,7 @@
         <div class="email"><a href="mailto:admin@wreadvisors.ca">admin@wreadvisors.ca</a></div>
       </div>
 
-      <div id="copyright">&copy; WRE Advisors Inc. <?php print date('Y'); ?></div>
+      <div id="copyright">&copy; WRE Advisors Inc., Brokerage</div>
       <div id="site-by-cci">Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></div>
     </div></div></div> <!-- /#footer -->
 

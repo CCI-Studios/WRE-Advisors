@@ -82,12 +82,12 @@ hr
 	background:$light-grey;
 	text-align:center;
 
-	& > div 
+	& > div
 	{
 		padding:0 15px;
 	}
 
-	#menu-btn 
+	#menu-btn
 	{
 		display:none;
 	}
@@ -99,11 +99,11 @@ hr
 		bottom:0;
 		width:100%;
 
-		& > div 
+		& > div
 		{
 			padding:0 15px 15px 15px;
 
-			& > div 
+			& > div
 			{
 				border-top:1px solid $dark-grey;
 				padding-top:25px;
@@ -146,7 +146,7 @@ hr
 			margin-top:15px;
 			position:relative;
 
-			& > a 
+			& > a
 			{
 				display:block;
 				padding-left:55px;
@@ -174,12 +174,12 @@ hr
 				height:42px;
 				display:block;
 
-				label 
+				label
 				{
 					display:none;
 				}
 
-				input 
+				input
 				{
 					border:0;
 					outline-color:$orange;
@@ -211,20 +211,20 @@ hr
 	}
 }
 
-#block-system-main-menu 
+#block-system-main-menu
 {
 	.content ul
 	{
 		margin:0;
 		padding:0;
 
-		li 
+		li
 		{
 			list-style:none;
 			margin:0 0 20px 0;
 			padding:0;
 
-			a 
+			a
 			{
 				color:$dark-grey;
 				display:block;
@@ -245,7 +245,7 @@ hr
 					left:-99999px;
 				}
 
-				&.wre 
+				&.wre
 				{
 					background-image:url(../images/menu-wre.png);
 
@@ -254,7 +254,7 @@ hr
 						background-image:url(../images/menu-wre-hover.png);
 					}
 				}
-				&.services 
+				&.services
 				{
 					background-image:url(../images/menu-services.png);
 
@@ -263,7 +263,7 @@ hr
 						background-image:url(../images/menu-services-hover.png);
 					}
 				}
-				&.work 
+				&.work
 				{
 					background-image:url(../images/menu-work.png);
 
@@ -272,7 +272,7 @@ hr
 						background-image:url(../images/menu-work-hover.png);
 					}
 				}
-				&.experience 
+				&.experience
 				{
 					background-image:url(../images/menu-experience.png);
 
@@ -281,7 +281,7 @@ hr
 						background-image:url(../images/menu-experience-hover.png);
 					}
 				}
-				&.listings 
+				&.listings
 				{
 					background-image:url(../images/menu-listings.png);
 
@@ -290,7 +290,7 @@ hr
 						background-image:url(../images/menu-listings-hover.png);
 					}
 				}
-				&.contact 
+				&.contact
 				{
 					background-image:url(../images/menu-contact.png);
 
@@ -309,11 +309,11 @@ hr
 	padding-left:200px;
 	height:100%;
 
-	& > div 
+	& > div
 	{
 		height:100%;
 
-		& > div 
+		& > div
 		{
 			height:100%;
 		}
@@ -330,17 +330,17 @@ hr
 	border-bottom:4px solid $lighter-grey;
 	box-shadow:0 0 60px rgba(0,0,0,0.25);
 
-	& > div 
+	& > div
 	{
 		height:100%;
 
-		& > div 
+		& > div
 		{
 			height:100%;
 			width:100%;
 			display:table;
 
-			& > div 
+			& > div
 			{
 				height:100%;
 				display:table-cell;
@@ -364,7 +364,7 @@ hr
 		text-shadow:1px 1px 2px rgba(110,110,100,0.3);
 		line-height:125%;
 
-		strong 
+		strong
 		{
 			font-weight:normal;
 			color:$orange;
@@ -424,9 +424,9 @@ hr
 	padding:0 75px;
 	overflow:hidden;
 }
-#block-system-main 
+#block-system-main
 {
-	ul, ol 
+	ul, ol
 	{
 		margin-bottom:0.75em;
 		list-style:none;
@@ -434,7 +434,7 @@ hr
 		padding-left:30px;
 		overflow:hidden;
 
-		li 
+		li
 		{
 			list-style:none;
     		position:relative;
@@ -458,7 +458,7 @@ hr
 		}
 	}
 
-	p 
+	p
 	{
 		margin-bottom:0.75em;
 	}
@@ -470,7 +470,7 @@ hr
 	text-shadow:2px 2px 3px rgba(0,0,0,0.4);
 	font-weight:normal;
 
-	img 
+	img
 	{
 		vertical-align:baseline;
 		margin-left:30px;
@@ -508,17 +508,17 @@ hr
 			}
 		}
 
-		& > div 
+		& > div
 		{
 			padding:0 15px;
 
-			& > div 
+			& > div
 			{
 				overflow:hidden;
 			}
 		}
 
-		h2 
+		h2
 		{
 			color:white;
 			font-size:2.8em;
@@ -534,24 +534,24 @@ hr
 			background-repeat:no-repeat;
 			margin-bottom:10px;
 
-			span 
+			span
 			{
 				display:table-cell;
 				vertical-align:middle;
 			}
 		}
 
-		.content 
+		.content
 		{
 			font-size:0.9em;
 
-			strong 
+			strong
 			{
 				font-weight:normal;
 				color:$orange;
 			}
 
-			p 
+			p
 			{
 				margin-bottom:0.8em;
 			}
@@ -590,7 +590,7 @@ hr
 			background-image:url(../images/block-our-model.jpg);
 		}
 
-		&:hover > div > div h2, 
+		&:hover > div > div h2,
 		&:after
 		{
 			background-image:url(../images/block-our-model-hover.jpg);
@@ -658,20 +658,20 @@ hr
 	font-size:0.8em;
 	padding-bottom:50px;
 
-	& > div 
+	& > div
 	{
 		width:290px;
 		margin:0 auto;
 	}
 
-	a.logo 
+	a.logo
 	{
 		display:block;
 		border-bottom:1px solid #eee;
 		padding-top:20px;
 		padding-bottom:5px;
 
-		img 
+		img
 		{
 			height:95px;
 			width:172px;
@@ -741,7 +741,7 @@ hr
 	width:240px;
 	margin-top:5px;
 
-	img 
+	img
 	{
 		width:240px!important;
 		height:auto!important;
@@ -763,15 +763,15 @@ hr
 			padding:0 30px 0 0;
 			background-image:url(../images/arrow-right.png);
 			background-repeat:no-repeat;
-			background-position:160px center;
+			background-position:160px 357px;
 			width:210px;
 		}
 	}
 }
 
-.view-recent-work 
+.view-recent-work
 {
-	.views-row 
+	.views-row
 	{
 		padding:25px 0;
 		position:relative;
@@ -794,7 +794,7 @@ hr
 		}
 	}
 
-	.views-field-title h2 
+	.views-field-title h2
 	{
 		border-bottom:0;
 		font-size:1.6em;
@@ -820,11 +820,11 @@ hr
 	}
 }
 
-.view-testimonials 
+.view-testimonials
 {
 	font-size:0.9em;
 
-	.views-row 
+	.views-row
 	{
 		margin-bottom:30px;
 
@@ -864,7 +864,7 @@ hr
 		padding:25px 10px;
 		position:relative;
 	}
-	hr 
+	hr
 	{
 		width:auto;
 		max-width:none;
@@ -873,7 +873,7 @@ hr
 		right:20%;
 	}
 
-	.views-field-nothing 
+	.views-field-nothing
 	{
 		padding-left:0;
 	}
@@ -886,13 +886,18 @@ hr
 	}
 	.views-field-nothing-2
 	{
+		.field-content
+		{
+			position: relative;
+		}
+
 		.label
 		{
 			color:$orange;
 			position:absolute;
 			left:10px;
 		}
-		.content 
+		.content
 		{
 			padding-left:70px;
 		}
@@ -902,7 +907,7 @@ hr
 		padding-right:0;
 		font-size:0.9em;
 
-		.link 
+		.link
 		{
 			font-weight:bold;
 			margin-bottom:20px;
@@ -918,27 +923,33 @@ hr
 	.views-field-nothing-1,
 	.views-field-nothing-2
 	{
-		&:after
+		.field-content
 		{
-			content:"";
-			display:block;
-			position:absolute;
-			right:0;
-			top:25px;
-			bottom:25px;
-			border-right:1px solid $dark-grey;
+			position: relative;
+
+			&:after
+			{
+				content:"";
+				display:block;
+				position:absolute;
+				right:-10px;
+				height:120px;
+				top:50%;
+				margin-top:-60px;
+				border-right:1px solid $dark-grey;
+			}
 		}
 	}
-	
+
 }
 
-#contact 
+#contact
 {
 	padding-top:1em;
 	padding-bottom:120px;
 	font-size:1.2em;
 
-	img 
+	img
 	{
 		float:left;
 		margin-right:30px;
@@ -948,7 +959,7 @@ hr
 
 	.phone,
 	.email,
-	.mailing-list 
+	.mailing-list
 	{
 		font-size:1.5em;
 		line-height:150%;
@@ -973,7 +984,7 @@ hr
 	{
 		background-image:url(../images/phone-large.png);
 
-		a 
+		a
 		{
 			padding-left:0;
 		}
@@ -987,7 +998,7 @@ hr
 		background-image:url(../images/mailing-list-large.png);
 	}
 
-	form 
+	form
 	{
 		float:left;
 		margin-top:10px;
@@ -995,7 +1006,7 @@ hr
 		max-height:0;
 		overflow:hidden;
 
-		label 
+		label
 		{
 			font-weight:normal;
 			float:left;
@@ -1016,7 +1027,7 @@ hr
 			margin-right:4px;
 		}
 
-		button 
+		button
 		{
 			border:0;
 			font-size:0.75em;
@@ -1056,18 +1067,18 @@ hr
 			padding-bottom:0;
 		}
 
-		.views-field 
+		.views-field
 		{
 			padding-left:180px;
 		}
 
-		.views-field-field-image 
+		.views-field-field-image
 		{
 			float:left;
 			padding-left:0;
 		}
 
-		h1 
+		h1
 		{
 			border-bottom:0;
 			padding-bottom:0;
@@ -1102,7 +1113,7 @@ hr
 						display:none;
 					}
 
-					&.last 
+					&.last
 					{
 						border-right:0;
 						padding-right:0;
