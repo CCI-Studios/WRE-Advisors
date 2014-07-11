@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WRE Advisors feature.
+ */
+
+include_once 'wre_advisors.features.inc';
